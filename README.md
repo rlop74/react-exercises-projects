@@ -17,7 +17,7 @@ Each section ends with **projects** that combine the concepts together.
 
 ### Basic Components w/ useState
 - [x] **Counter App** – + and – buttons.
-- [ ] **Toggle Button** – Switch between ON/OFF.
+- [x] **Toggle Button** – Switch between ON/OFF.
 - [ ] **Show/Hide Text** – Toggle paragraph visibility.
 - [ ] **Simple Form Input** – Input box displays typed value.
 - [ ] **Password Visibility Toggle** – Show/hide password.
