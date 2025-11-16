@@ -21,7 +21,7 @@ Each section ends with **projects** that combine the concepts together.
 - [x] **Show/Hide Text** – Toggle paragraph visibility.
 - [x] **Simple Form Input** – Input box displays typed value.
 - [x] **Password Visibility Toggle** – Show/hide password.
-- [ ] **Sidebar Toggle** – Open/close sidebar.
+- [x] **Sidebar Toggle** – Open/close sidebar.
 
 ---
 
