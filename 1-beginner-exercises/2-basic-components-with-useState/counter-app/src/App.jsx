@@ -1,14 +1,18 @@
-import './App.css'
+import "./App.css";
 import { Plus, Minus } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
-    let [count, setCount] = useState(0);
+    let [count, setCount] = useState(localStorage.getItem("count") || 0);
 
     // const increaseCount = () => {
     //     count++;
     //     setCount(count);
     // };
+
+    useEffect(() => {
+        localStorage.setItem("count", count);
+    }, [count]);
 
     return (
         <>
@@ -16,7 +20,7 @@ function App() {
             <div
                 onClick={() => {
                     count++;
-                    setCount(count++);
+                    setCount(count);
                 }}
                 className="border-1 cursor-pointer hover:bg-white/50 p-4 w-[100px] flex justify-center"
             >
@@ -25,7 +29,7 @@ function App() {
             <div
                 onClick={() => {
                     count--;
-                    setCount(count++);
+                    setCount(count);
                 }}
                 className="border-1 cursor-pointer hover:bg-white/50 p-4 w-[100px] flex justify-center"
             >
