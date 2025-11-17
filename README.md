@@ -47,7 +47,7 @@ Each section ends with **projects** that combine the concepts together.
 1. **Employee Directory App**  
    - [x] Show employee cards (props + map) 
    - [x] Add a search input (state)
-   - [ ] Toggle bio expand/collapse
+   - [x] Toggle bio expand/collapse
 
 2. **Simple Dashboard Widgets**  
    - [ ] Greeting banner
